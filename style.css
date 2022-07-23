@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  /* margin: 0 7%; */
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4vh;
+}
+.timer p {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: -10px;
+  color: #aaaaaa;
+}
+#number {
+  color: rgb(230, 33, 33);
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 15px;
+}
+.first-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 7%;
+}
+.row-one {
+  width: 50%;
+}
+.writeup {
+  margin-bottom: 25px;
+}
+.head {
+  /* width: 70%; */
+  font-size: 3em;
+  margin-bottom: 3vh;
+}
+#green-text {
+  color: green;
+  font-size: 0.9em;
+}
+#black-text {
+  font-size: 0.9em;
+}
+.sub-head-one {
+  color: rgb(230, 33, 33);
+  font-size: 1.4em;
+  margin-bottom: 2vh;
+  width: 82%;
+  /* line-height: 29px; */
+}
+.two {
+  width: 78%;
+  font-size: 1.4em;
+}
+.btn {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(238, 151, 64);
+  height: 30px;
+  padding-top: 15px;
+  width: 350px;
+  text-align: center;
+}
+.btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+.virtual-cards {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.row-two {
+  width: 50%;
+}
+.row-two img {
+  margin-left: 4%;
+}
+.second-section {
+  margin: 4% 7%;
+  border: 1px solid red;
+  /* background-color: #aaaaaa; */
+}
+.forms-and-fliers {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.flier img {
+  margin-left: 0%;
+  /* width: 100%; */
+}
+.flier {
+  width: 50%;
+}
+.right-section {
+  /* width: 50%;
+  flex-wrap: wrap; */
+}
+.box {
+}
+.box1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(238, 151, 64);
+  height: 40px;
+}
+#webinar {
+  text-align: center;
+  padding: 5px;
+}
+.box2-registration-form {
+  padding-top: 30px;
+}
+form input {
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-top: 5px;
+  /* height: 40px; */
+  padding: 10px;
+  width: 100%;
+}
+form label {
+}
+.radio {
+  display: flex;
+}
